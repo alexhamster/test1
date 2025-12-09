@@ -1,0 +1,63 @@
+Text: TYPE 3 TYPE 3
+
+Text: TYPE 3 (WT-C2) 350MM EXTERNAL WALLS
+
+Text: TYPE 3 FIXED TIVE?
+
+Text: TYPE 3 ILL
+
+Text: TYPE 3 AVIT
+
+Text: TYPE 3 LOSE
+
+Text: TYPE 3 .
+
+Text: TYPE 3 °
+
+Text: TYPE 3 7 ae ne
+
+Text: TYPE 3 e
+
+Text: TYPE 3 FAC|
+
+Text: TYPE 3 IC
+
+Text: TYPE 3 Orel
+
+Text: TYPE 3 ;
+
+Text: TYPE 3 )
+
+Text: TYPE 3 ; ALL30A
+
+Text: TYPE 3 ora, KINGSPAN KOOLTHE
+
+Text: TYPE 3 )
+
+Text: TYPE 3 K
+
+Text: TYPE 3 16
+
+Text: TYPE 3 rat
+
+Text: TYPE 3 AS
+
+Text: TYPE 3 OA
+
+Text: TYPE 3 a
+
+Text: TYPE 3 NOTES
+
+Text: TYPE 3 ic
+
+Text: TYPE 3 (WT-C2) 350MM EXTERNAL WALLS
+
+Text: TYPE 3 0
+
+Header: TYPE 3 ALL DIMENSIONS TO BE CHECKED ON SITE PRIOR TO ANY MANUFACTURING OR FABRICATION AND ANY ANOMALIES TO BE BROUGHT TO THE ATTENTION OF THE ARCHITECT.
+
+Image: TYPE 3
+
+Image: TYPE 3
+
+Image: TYPE 3

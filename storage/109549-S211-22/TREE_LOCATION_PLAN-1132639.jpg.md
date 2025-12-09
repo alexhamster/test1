@@ -1,0 +1,1 @@
+Text: Sketch plan no. 22/SPRI/01 Sketch plan no. 22/SPRI/01

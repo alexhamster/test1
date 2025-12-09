@@ -1,0 +1,189 @@
+Text: PRELIMINARY PRELIMINARY
+
+Text: PRELIMINARY THIS DRAWING IS ISSUED FOR THE ABOVE PURPOSE ONLY AND MUST NOT BE USED FOR ANY OTHER PURPOSE WITHOUT THE EXPRESS PERMISSION OF CB3 DESIGN LTD ALL STRUCTURAL SIZES OF TIMBER/STEEL etc. ARE SHOWN INDICATIVELY ONLY. REFERENCE SHOULD BE MADE TO STRUCTURAL ENGINEERS DESIGN AND CALCULATIONS FOR ALL STRUCTURAL SIZES.
+
+Text: PRELIMINARY cron
+
+Text: PRELIMINARY Health & Safety:
+
+Text: PRELIMINARY Please note CDM 2015 applies to all construction work including domestic projects. If
+
+Text: PRELIMINARY further clarification is required please refer to "CDM 2015: what domestic clients need to
+
+Text: PRELIMINARY do” a useful guidance document prepared by the Association for Project Safety.
+
+Text: PRELIMINARY Key:
+
+Text: PRELIMINARY 1
+
+Text: PRELIMINARY if c
+
+Text: PRELIMINARY %
+
+Text: PRELIMINARY 27
+
+Text: PRELIMINARY SANDIWAY ROAD
+
+Text: PRELIMINARY 32.2m
+
+Text: PRELIMINARY 1 to 6
+
+Text: PRELIMINARY Byroe Court
+
+Text: PRELIMINARY 2
+
+Text: PRELIMINARY 0
+
+Text: PRELIMINARY 1
+
+Text: PRELIMINARY 6
+
+Text: PRELIMINARY 9
+
+Text: PRELIMINARY 2
+
+Text: PRELIMINARY nT Hotel
+
+Text: PRELIMINARY George and
+
+Text: PRELIMINARY Dragon
+
+Text: PRELIMINARY Hotel
+
+Text: PRELIMINARY SANDIWAY PLACE
+
+Text: PRELIMINARY 1
+
+Text: PRELIMINARY 4
+
+Text: PRELIMINARY &
+
+Text: PRELIMINARY Q
+
+Text: PRELIMINARY oF
+
+Text: PRELIMINARY 7
+
+Text: PRELIMINARY a
+
+Text: PRELIMINARY 2
+
+Text: PRELIMINARY 1
+
+Text: PRELIMINARY 0
+
+Text: PRELIMINARY ©
+
+Text: PRELIMINARY Crown copyright and database rights [2022] Ordnance Survey 0100031673
+
+Text: PRELIMINARY Site Location Plan
+
+Text: PRELIMINARY Scale 1:1250
+
+Text: PRELIMINARY fo)
+
+Text: PRELIMINARY 50M
+
+Text: PRELIMINARY 1:1250
+
+Text: PRELIMINARY 25M D side elevation added MB C ground lvl adjusted MB B ground lvl adjusted MB A Site Location Plan added MB Rev Description Init.
+
+Text: PRELIMINARY 26.05.2022
+
+Text: PRELIMINARY 09.05.2022
+
+Text: PRELIMINARY 03.02.2022
+
+Text: PRELIMINARY 13.01.2022
+
+Text: PRELIMINARY Date
+
+Text: PRELIMINARY Revisions
+
+Text: PRELIMINARY 100M
+
+Text: PRELIMINARY Job Title:
+
+Text: PRELIMINARY Proposed Development at 20 Sandiway Place Altrincham WA14 1HT
+
+Text: PRELIMINARY Drawing Title:
+
+Text: PRELIMINARY As Existing
+
+Text: PRELIMINARY Client:
+
+Text: PRELIMINARY Ms Annette Stroud & Mr Craig Barclay
+
+Text: PRELIMINARY RIAS
+
+Text: PRELIMINARY Issued by:
+
+Text: PRELIMINARY @
+
+Text: PRELIMINARY CHESHIRE OFFICE
+
+Text: PRELIMINARY ©
+
+Text: PRELIMINARY SCOTTISH BORDERS
+
+Text: PRELIMINARY 2 The Square,
+
+Text: PRELIMINARY Chambers House
+
+Text: PRELIMINARY Lymm, Cheshire,
+
+Text: PRELIMINARY Lymm,
+
+Text: PRELIMINARY Cheshire,
+
+Text: PRELIMINARY 72 High Street
+
+Text: PRELIMINARY Peebles
+
+Text: PRELIMINARY WA13 0HX
+
+Text: PRELIMINARY EH45 8SW
+
+Text: PRELIMINARY t: 01925 752 414
+
+Text: PRELIMINARY t: 01721 729 640
+
+Text: PRELIMINARY e: architects@cb3design.co.uk
+
+Text: PRELIMINARY w: www.cb3design.co.uk
+
+Text: PRELIMINARY Scale:
+
+Text: PRELIMINARY 1:50, 1:100
+
+Text: PRELIMINARY Date:
+
+Text: PRELIMINARY Drawn by:
+
+Text: PRELIMINARY Checked:
+
+Text: PRELIMINARY 3021.12.01 mB PBA
+
+Text: PRELIMINARY 2021.12.01
+
+Text: PRELIMINARY MB
+
+Text: PRELIMINARY PBA
+
+Text: PRELIMINARY 1:1250@A1
+
+Text: PRELIMINARY Job No:
+
+Text: PRELIMINARY Drawing No:
+
+Text: PRELIMINARY 21.STR.01
+
+Text: PRELIMINARY 001C
+
+Text: PRELIMINARY This drawing is protected by the copyright of CB3 Design 2021.11.04
+
+Image: PRELIMINARY
+
+Image: PRELIMINARY
+
+Image: PRELIMINARY

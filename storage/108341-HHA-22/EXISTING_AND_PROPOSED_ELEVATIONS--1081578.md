@@ -1,0 +1,3 @@
+Text: PROPOSED NORTH ELEVATION PROPOSED NORTH ELEVATION
+
+Text: PROPOSED NORTH ELEVATION 1. All dimensions in millimetres (mm) and levels in metres (m) unless noted otherwise. 2. This drawing to be read in conjunction with all other relevant drawings and specification. 3. All work to comply with the relevant British Standards, Codes of Practice and the Building Regulations. Mr I Quarrie 1 Orchard View Woodhouse Lane ALTRINCHAM, Greater Manchester WA14 5SB Existing and Proposed Elevations 0806/LBC/ 02 WA0806BB 1:100 06 APR 2022 V.PODKOLZINA A3 Everest 2020 Limited 1 Albany Place Broadwater Road Welwyn Garden City Herts AL7 3BT . .
