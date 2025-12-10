@@ -3,7 +3,7 @@
 # pip install langchain_text_splitters
 # pip install sentence_transformers
 
-from unsloth import FastModel
+#from unsloth import FastModel
 import os
 import glob
 import chromadb
@@ -20,7 +20,7 @@ CHROMADB_PATH = "./chroma_store"
 CHROMA_DIR = os.path.join(BASEDIR_PATH, CHROMADB_PATH)
 COLLECTION_NAME = "files_chunks"
 #DATASTORE_PATH = "./storage"
-DATASTORE_PATH = os.path.join(BASEDIR_PATH, "./storage") # TODO edit
+DATASTORE_PATH = os.path.join(BASEDIR_PATH, "./storage_2") # TODO edit
 
 # if N_CHUNKS = -1 will use recomended number of cunks for short context window, else will use your number
 N_CHUNKS = -1
@@ -66,7 +66,7 @@ def create_chunks(markdown_dir, collection, global_chunk_index = 0):
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
         chunk_overlap=CHUNK_OVERLAP,
-        separators=["\n\n", "\n", " ", ""],
+        separators=["##", "\n\n", "\n", " ", ""],
     )
     
     for file_path in md_files:
