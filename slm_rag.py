@@ -1,4 +1,9 @@
 # pip install unsloth
+# pip install chromadb
+# pip install langchain_text_splitters
+# pip install sentence_transformers
+
+from unsloth import FastModel
 import os
 import glob
 import chromadb
@@ -6,7 +11,6 @@ from chromadb.utils import embedding_functions
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from typing import List, Dict, Any
 import argparse
-from unsloth import FastModel
 from transformers import TextStreamer
 
 BASEDIR_PATH = os.path.dirname(__file__)
@@ -172,7 +176,7 @@ def init_model(model_alias="gemma"):
     
     return model, tokenizer, max_chunks_for_short_context_win
 
-def run_slm_one_query(query, model, tokenizer, n_chunks):
+def run_gemma_one_query(query, model, tokenizer, n_chunks):
 
     #model, tokenizer, n_chunks = init_model(model_alias)
     
@@ -208,22 +212,73 @@ def run_slm_one_query(query, model, tokenizer, n_chunks):
 
     return generated_text, query, promt
 
-def run_slm_many_queries(model, tokenizer, n_chunks):
+def run_phi_one_query(query, model, tokenizer, n_chunks):
+    
+    if(N_CHUNKS != -1):
+        n_chunks = N_CHUNKS
+    
+    promt = prepare_promt(query, n_chunks)
+    
+    messages = [
+    {
+        "role": "user",
+        "content": promt,
+    }
+    ]
+    
+    inputs = tokenizer.apply_chat_template(
+        messages,
+        add_generation_prompt = True, 
+        return_tensors = "pt",
+    ).to("cude")
+    
+    outputs = model.generate(
+        **inputs,
+        max_new_tokens=128,
+        temperature=MODEL_TEMPERATURE,
+        top_p=0.95,
+        top_k=64,
+        do_sample=True,
+    )
+    
+    generated_ids = outputs[0][inputs["input_ids"].shape[-1]:]
+    generated_text = tokenizer.decode(
+        generated_ids,
+        skip_special_tokens=True,
+    )
+
+    return generated_text, query, promt
+
+def run_slm_many_queries(model, tokenizer, n_chunks, model_alias):
     
     with open(QUESTIONS_PATH, "r", encoding="utf-8") as f:
         for i, line in enumerate(f, start=1):
-            generated_text, query, _ = run_slm_one_query(line.strip(), model, tokenizer, n_chunks)
-            print(f"QUESTION {i}: {query} \n ANSWER {i}: {generated_text}")
+            
+            if(model_alias == "gemma"):
+                generated_text, query, _ = run_gemma_one_query(line.strip(), model, tokenizer, n_chunks)
+                print(f"gemma QUESTION {i}: {query} \n gemma ANSWER {i}: {generated_text}")
+            elif(model_alias == "phi"): 
+                generated_text, query, _ = run_phi_one_query(line.strip(), model, tokenizer, n_chunks)
+                print(f"phi QUESTION {i}: {query} \n phi ANSWER {i}: {generated_text}")
+            else:
+                print("Incorrect model selected")
        
             
 def one_question(query, model_alias):
     model, tokenizer, n_chunks = init_model(model_alias)
-    generated_text, _, _ = run_slm_one_query(query, model, tokenizer, n_chunks)
-    print(f"QUESTION: {query} \n ANSWER: {generated_text}")   
+    
+    if(model_alias == "gemma"):
+        generated_text, _, _ = run_gemma_one_query(query, model, tokenizer, n_chunks)
+        print(f"QUESTION: {query} \n ANSWER: {generated_text}")
+    elif(model_alias == "phi"):   
+        generated_text, _, _ = run_phi_one_query(query, model, tokenizer, n_chunks)
+        print(f"QUESTION: {query} \n ANSWER: {generated_text}")
+    else:
+        print("Incorrect model selected")
             
 def questions_from_file(model_alias):
     model, tokenizer, n_chunks = init_model(model_alias)
-    run_slm_many_queries(model, tokenizer, n_chunks)
+    run_slm_many_queries(model, tokenizer, n_chunks, model_alias)
     
 
 def main():
